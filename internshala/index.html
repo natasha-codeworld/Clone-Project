@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-white">
+
+<nav class="bg-white p-4">
+  <div class="container mx-auto flex flex-wrap justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <img src="images/Group.png" alt="Logo" class="h-8 w-13">
+      <span class="text-white text-lg font-bold">BrandName</span>
+    </div>
+    <div class="block md:hidden">
+      <button id="nav-toggle" class="text-dark focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow md:flex md:items-center md:w-auto hidden md:block" id="nav-content">
+      <div class="text-sm md:flex-grow flex md:justify-start justify-start space-x-4">
+        <a href="#" class="block mt-4 md:inline-block md:mt-0 text-dark hover:text-gray-400">Home</a>
+        <a href="#" class="block mt-4 md:inline-block md:mt-0 text-dark hover:text-gray-400">About Us</a>
+        <a href="#" class="block mt-4 md:inline-block md:mt-0 text-dark hover:text-gray-400">Pricing</a>
+        <a href="#" class="block mt-4 md:inline-block md:mt-0 text-dark hover:text-gray-400">Features</a>
+      </div>
+      <div class="flex justify-start">
+        <a href="#" class="block mt-4 md:mt-0 bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-10">Download</a>
+      </div>
+    </div>
+  </div>
+  <div class="md:hidden hidden bg-black flex-col space-y-2 mt-2 text-white text-center relative" id="nav-mobile">
+    <a href="#" class="block hover:text-gray-400">Home</a>
+    <a href="#" class="block hover:text-gray-400">About Us</a>
+    <a href="#" class="block hover:text-gray-400">Pricing</a>
+    <a href="#" class="block hover:text-gray-400">Features</a>
+    <a href="#" class="block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Download</a>
+  </div>
+</nav>
+<div class="box">
+    <div class="background1">
+        <h1 class="heading-main text-5xl font-bold mt-10 ml-10">Make The Best</h1>
+        <h1 class="heading-main text-5xl font-bold ml-10">Financial Decisions</h1>
+
+        <p class="text-main mt-10 font-bold text-gray-700 ml-10">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
+            faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+
+        <div class="button-main flex mt-10 ml-10">
+            <div class="flex">
+                <a href="#" class="inline-block bg-black hover:bg-gray-600 text-white font-bold py-2 px-4 m-4">Get Started</a>
+            </div>
+            <div class="flex">
+                <a href="#" class="inline-block bg-white border border-black text-black font-bold py-2 px-4 hover:bg-gray-100 hover:border-gray-400 m-4">▷ Watch Video</a>
+            </div>
+        </div>
+        <div class="img-main mx-auto ml-8 mt-8">
+            <img src="images/Group 35924.png" alt="" class="w-100 h-60">
+        </div>
+    </div>
+    <div class="background2">
+      <div class="mr-10 mb-10">
+        <img src="images/Frame 1.png" alt="" class="circles absolute ">
+      </div>
+      <img src="images/iPhone-13-Pro-Front.png" alt="" class="phn3 absolute">
+      <img src="images/iPhone-13-Pro-Front (2).png" alt="" class="phn2 absolute">
+      <img src="images/iPhone-13-Pro-Front.png" alt="" class="phn1 absolute">
+    </div>
+</div>
+<div class="container2 mx-auto p-4">
+  <div class="flex flex-col md:flex-row items-center">
+      <!-- First Column: Image -->
+      <div class="background-imgc2">
+        <div class="w-full md:w-1/2 p-4">
+          <img src="images/Group 35933.png" alt="Sample Image" class="imgc2 h-auto absolute">
+      </div>
+      </div>
+      
+      <!-- Second Column: Text -->
+      <div class="col2c2 md:w-1/2 p-4">
+        <div class="img2-c2">
+          <h3 class="features-text">FEATURES</h3>
+          <h1 class="text-3xl font-bold mb-4">Uifry Premium</h1>
+          <div class="text1-c2 ">
+            <h3 class="text-bold mt-4" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Budgeting Interval</h3>
+            <p class="font-bold text-gray-500 mt-2">Cum et convallis risus placerat aliquam, nunc. Scelerisque
+              aliquet faucibus tincidunt eu adipiscing sociis arcu lorem
+              porttitor.</p>
+          </div>
+          <div class="text2-c2 mt-4">
+            <h3 class="text-bold" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Budgeting Interval</h3>
+            <p class="font-bold text-gray-500 mt-2">Cum et convallis risus placerat aliquam, nunc. Scelerisque
+              aliquet faucibus tincidunt eu adipiscing sociis arcu lorem
+              porttitor.</p>
+          </div>
+          <div class="text3-c2 mt-4">
+            <h3 class="text-bold" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Budgeting Interval</h3>
+            <p class="font-bold text-gray-500 mt-2">Cum et convallis risus placerat aliquam, nunc. Scelerisque
+              aliquet faucibus tincidunt eu adipiscing sociis arcu lorem
+              porttitor.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+  const navContent = document.getElementById('nav-content');
+  const navMobile = document.getElementById('nav-mobile');
+
+  navToggle.addEventListener('click', () => {
+    navMobile.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
+
+
